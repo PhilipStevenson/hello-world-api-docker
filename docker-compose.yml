@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: hello-world-api
+    environment:
+      HELLO_WORLD_API_PORT: $HELLO_WORLD_API_PORT
+    image: hello-world-api
+    ports:
+      - $HELLO_WORLD_API_PORT:$HELLO_WORLD_API_PORT

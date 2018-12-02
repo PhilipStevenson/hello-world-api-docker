@@ -1,0 +1,28 @@
+{
+  "name": "hello-world-docker",
+  "version": "1.0.0",
+  "description": "An API that returns Hello World!",
+  "main": "src/server.js",
+  "scripts": {
+    "docker": "sh docker-compose.sh",
+    "start": "node src/server.js",
+    "test": "./node_modules/mocha/bin/mocha --reporter=nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipStevenson/HelloWorldDocker.git"
+  },
+  "author": "Phil Stevenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilipStevenson/HelloWorldDocker/issues"
+  },
+  "homepage": "https://github.com/PhilipStevenson/HelloWorldDocker#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
