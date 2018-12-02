@@ -3,8 +3,12 @@ An API that returns `Hello World!` when the `/` endpoint is called
 
 ![Whale Hello There](https://media.giphy.com/media/mW05nwEyXLP0Y/giphy.gif)
 
+## Prerequisites
+* Docker installed
+* NPM installed
+
 ## Environment variables
-The following environment variables needs to be set before the application can be ran
+The following environment variables need to be set before the application can be ran
 ```shell
 export HELLO_WORLD_API_PORT=3000
 ```
