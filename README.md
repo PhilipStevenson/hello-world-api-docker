@@ -5,22 +5,32 @@ An API that returns `Hello World!` when the `/` endpoint is called
 
 ## Environment variables
 The following environment variables needs to be set before the application can be ran
-`export HELLO_WORLD_API_PORT=3000`
+```shell
+export HELLO_WORLD_API_PORT=3000
+```
 
 ## Running the application
 ### Using NPM
 Install dependencies
-`npm install` or `npm i`
+```shell
+npm install
+```
 Start the server
-`npm start`
+```shell
+npm start
+```
 Go to the following URL
 `localhost:<HELLO_WORLD_API_PORT>` e.g. `localhost:3000`
 
 ### Docker 🐳
 Build the image and run the container using Docker compose
-`npm run docker`
+```shell
+npm run docker
+```
 Go to the following URL
 `localhost:<HELLO_WORLD_API_PORT>` e.g. `localhost:3000`
 
 ## Running the unit tests
-`npm test`
+```shell
+npm test
+```
