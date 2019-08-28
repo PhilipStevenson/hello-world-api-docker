@@ -1,5 +1,8 @@
 # Hello World API Docker 🐳 
-An API that returns `Hello World!` when the `/` endpoint is called
+An API that returns the following JSON when the `/` endpoint is called
+```json
+{"message":"Hello World!"}
+```
 
 ![Whale Hello There](https://media.giphy.com/media/mW05nwEyXLP0Y/giphy.gif)
 
