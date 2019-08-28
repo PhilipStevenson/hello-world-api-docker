@@ -1,3 +1,5 @@
 const C = require('./constants')
 
-module.exports = () => C.helloWorldMessage
+module.exports = () => {
+  return { message: C.helloWorldMessage }
+}
