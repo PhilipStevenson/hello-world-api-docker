@@ -11,7 +11,7 @@ An API that returns the following JSON when the `/` endpoint is called
 * NPM installed
 
 ## Environment variables
-The following environment variables need to be set before the application can be ran
+The following environment variables need to be set before the application can be run
 ```shell
 export HELLO_WORLD_API_PORT=3000
 ```
